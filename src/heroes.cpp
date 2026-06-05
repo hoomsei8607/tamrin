@@ -19,3 +19,16 @@ bool heroes::ischarachterdead()
     
 }
 
+void heroes::damagemultiplier(int rounds, int mult)
+{
+
+}
+
+void heroes::set_health(int hp)
+{
+    health=hp;
+}
+void heroes::set_roundforspecialattack(int round)
+{
+    roundforspecialattack=round;
+}

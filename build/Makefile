@@ -152,6 +152,30 @@ src/heroes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/heroes.cpp.s
 .PHONY : src/heroes.cpp.s
 
+src/littletaha.obj: src/littletaha.cpp.obj
+.PHONY : src/littletaha.obj
+
+# target to build an object file
+src/littletaha.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/littletaha.cpp.obj
+.PHONY : src/littletaha.cpp.obj
+
+src/littletaha.i: src/littletaha.cpp.i
+.PHONY : src/littletaha.i
+
+# target to preprocess a source file
+src/littletaha.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/littletaha.cpp.i
+.PHONY : src/littletaha.cpp.i
+
+src/littletaha.s: src/littletaha.cpp.s
+.PHONY : src/littletaha.s
+
+# target to generate assembly for a file
+src/littletaha.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/littletaha.cpp.s
+.PHONY : src/littletaha.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -176,6 +200,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/menuhandler.obj: src/menuhandler.cpp.obj
+.PHONY : src/menuhandler.obj
+
+# target to build an object file
+src/menuhandler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/menuhandler.cpp.obj
+.PHONY : src/menuhandler.cpp.obj
+
+src/menuhandler.i: src/menuhandler.cpp.i
+.PHONY : src/menuhandler.i
+
+# target to preprocess a source file
+src/menuhandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/menuhandler.cpp.i
+.PHONY : src/menuhandler.cpp.i
+
+src/menuhandler.s: src/menuhandler.cpp.s
+.PHONY : src/menuhandler.s
+
+# target to generate assembly for a file
+src/menuhandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/menuhandler.cpp.s
+.PHONY : src/menuhandler.cpp.s
+
+src/white.obj: src/white.cpp.obj
+.PHONY : src/white.obj
+
+# target to build an object file
+src/white.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/white.cpp.obj
+.PHONY : src/white.cpp.obj
+
+src/white.i: src/white.cpp.i
+.PHONY : src/white.i
+
+# target to preprocess a source file
+src/white.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/white.cpp.i
+.PHONY : src/white.cpp.i
+
+src/white.s: src/white.cpp.s
+.PHONY : src/white.s
+
+# target to generate assembly for a file
+src/white.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/white.cpp.s
+.PHONY : src/white.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +260,18 @@ help:
 	@echo ... src/heroes.obj
 	@echo ... src/heroes.i
 	@echo ... src/heroes.s
+	@echo ... src/littletaha.obj
+	@echo ... src/littletaha.i
+	@echo ... src/littletaha.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/menuhandler.obj
+	@echo ... src/menuhandler.i
+	@echo ... src/menuhandler.s
+	@echo ... src/white.obj
+	@echo ... src/white.i
+	@echo ... src/white.s
 .PHONY : help
 
 

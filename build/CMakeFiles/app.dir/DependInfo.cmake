@@ -9,7 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Houman/Desktop/tamrin/src/heroes.cpp" "CMakeFiles/app.dir/src/heroes.cpp.obj" "gcc" "CMakeFiles/app.dir/src/heroes.cpp.obj.d"
+  "C:/Users/Houman/Desktop/tamrin/src/littletaha.cpp" "CMakeFiles/app.dir/src/littletaha.cpp.obj" "gcc" "CMakeFiles/app.dir/src/littletaha.cpp.obj.d"
   "C:/Users/Houman/Desktop/tamrin/src/main.cpp" "CMakeFiles/app.dir/src/main.cpp.obj" "gcc" "CMakeFiles/app.dir/src/main.cpp.obj.d"
+  "C:/Users/Houman/Desktop/tamrin/src/menuhandler.cpp" "CMakeFiles/app.dir/src/menuhandler.cpp.obj" "gcc" "CMakeFiles/app.dir/src/menuhandler.cpp.obj.d"
+  "C:/Users/Houman/Desktop/tamrin/src/white.cpp" "CMakeFiles/app.dir/src/white.cpp.obj" "gcc" "CMakeFiles/app.dir/src/white.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

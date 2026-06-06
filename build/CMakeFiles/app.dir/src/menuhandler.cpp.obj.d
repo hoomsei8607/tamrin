@@ -1,5 +1,6 @@
-CMakeFiles/app.dir/src/main.cpp.obj: \
- C:\Users\Houman\Desktop\tamrin\src\main.cpp \
+CMakeFiles/app.dir/src/menuhandler.cpp.obj: \
+ C:\Users\Houman\Desktop\tamrin\src\menuhandler.cpp \
+ C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h \
  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/iostream \
  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/requires_hosted.h \
  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -144,7 +145,6 @@ CMakeFiles/app.dir/src/main.cpp.obj: \
  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ostream.tcc \
  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/istream \
  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/istream.tcc \
- C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h \
  C:/Users/Houman/Desktop/tamrin/headers/white.h \
  C:/Users/Houman/Desktop/tamrin/headers/heroes.h \
  C:/Users/Houman/Desktop/tamrin/headers/littletaha.h

@@ -9,5 +9,6 @@ class white: public heroes
     int whiteskill2(int);
     int whitespecial();
     white();
+     void testmessage();
 
 };

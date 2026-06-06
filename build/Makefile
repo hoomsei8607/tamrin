@@ -296,6 +296,30 @@ src/menuhandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/menuhandler.cpp.s
 .PHONY : src/menuhandler.cpp.s
 
+src/user.obj: src/user.cpp.obj
+.PHONY : src/user.obj
+
+# target to build an object file
+src/user.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/user.cpp.obj
+.PHONY : src/user.cpp.obj
+
+src/user.i: src/user.cpp.i
+.PHONY : src/user.i
+
+# target to preprocess a source file
+src/user.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/user.cpp.i
+.PHONY : src/user.cpp.i
+
+src/user.s: src/user.cpp.s
+.PHONY : src/user.s
+
+# target to generate assembly for a file
+src/user.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/user.cpp.s
+.PHONY : src/user.cpp.s
+
 src/white.obj: src/white.cpp.obj
 .PHONY : src/white.obj
 
@@ -350,6 +374,9 @@ help:
 	@echo ... src/menuhandler.obj
 	@echo ... src/menuhandler.i
 	@echo ... src/menuhandler.s
+	@echo ... src/user.obj
+	@echo ... src/user.i
+	@echo ... src/user.s
 	@echo ... src/white.obj
 	@echo ... src/white.i
 	@echo ... src/white.s

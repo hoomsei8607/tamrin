@@ -13,6 +13,7 @@ class heroes
     void damagemultiplier(int,int);
     void set_health(int);
     void set_roundforspecialattack(int);
+    virtual void testmessage();
 
     
     

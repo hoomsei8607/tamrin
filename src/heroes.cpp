@@ -32,3 +32,5 @@ void heroes::set_roundforspecialattack(int round)
 {
     roundforspecialattack=round;
 }
+void heroes::testmessage()
+{}

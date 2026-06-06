@@ -5,4 +5,5 @@ class dani : public heroes
 {
     public:
     dani();
+     void testmessage();
 };

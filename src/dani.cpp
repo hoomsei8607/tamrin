@@ -5,3 +5,7 @@ dani::dani()
 {
     cout<<"hi me dani \n";
 }
+void dani::testmessage()
+{
+    cout<<"yay dani";
+}

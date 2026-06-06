@@ -7,3 +7,7 @@
     set_roundforspecialattack(3);
     cout<<"hi me taha";
  }
+ void liltaha::testmessage()
+{
+    cout<<"yay lil";
+}

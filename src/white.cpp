@@ -12,3 +12,7 @@ void white::whiteskill1(int choice)
 {
     cout<<"meoww";
 }
+void white::testmessage()
+{
+    cout<<"yay white";
+}

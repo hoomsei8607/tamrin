@@ -5,4 +5,5 @@ class amin : public heroes
 {
     public:
     amin();
+    void testmessage();
 };

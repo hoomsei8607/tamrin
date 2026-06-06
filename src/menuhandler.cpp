@@ -1,4 +1,5 @@
 #include "../headers/menuhandler.h"
+#include <vector>
 
 void menuhandler::run()
 {
@@ -13,7 +14,7 @@ void menuhandler::run()
 5 :  big taha
 ------------------------
 )";
-int test[3];
+std::vector<heroes*> selectedHeroes;
 cout<<"input :  ";
 while (counter<3)
 {
@@ -26,98 +27,19 @@ if (a<1||a>5)
 {
     cout<<"please enter a valid number (1 - 5) \n";
 }
-
 else{
-switch (a)
-{
-case 1:
-{
-    if (counter==0)
-    {
-        white hero1;
-    }
-    else if (counter ==1)
-    {
-        white hero2; 
-    }
-    else if (counter ==2)
-    {
-        white hero3;
-    }
     counter++;
-    break;
-}
-case 2:
-{
-    if (counter==0)
-    {
-        liltaha hero1;
-    }
-    else if (counter ==1)
-    {
-        liltaha hero2; 
-    }
-    else if (counter ==2)
-    {
-        liltaha hero3;
-    }
-    counter++;
-    break;
-}
-case 3:
-{
-    if (counter==0)
-    {
-        dani hero1;
-    }
-    else if (counter ==1)
-    {
-        dani hero2; 
-    }
-    else if (counter ==2)
-    {
-        dani hero3;
-    }
-   counter++;
-    break;
-}
-
-case 4:
-{
-    if (counter==0)
-    {
-        amin hero1;
-    }
-    else if (counter ==1)
-    {
-        amin hero2; 
-    }
-    else if (counter ==2)
-    {
-        amin hero3;
-    }
-   counter++;
-    break;
-}
-case 5:
-{
-    if (counter==0)
-    {
-        bigtaha hero1;
-    }
-    else if (counter ==1)
-    {
-        bigtaha hero2; 
-    }
-    else if (counter ==2)
-    {
-        bigtaha hero3;
-    }
-   counter++;
-    break;
+    user1.buildheroes(a);
 }
 
 }
+user1.selectedHeroes[0]->testmessage();
 }
-}
+
+void menuhandler::builduser()
+{
+    cout<<"enter name";
+    string name;
+    cin>>name;
+    user1.set_name(name);
 }

@@ -5,3 +5,7 @@ amin::amin()
 {
     cout<<"hi me amin \n";
 }
+void amin::testmessage()
+{
+    cout<<"yay amin";
+}

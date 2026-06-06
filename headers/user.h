@@ -1,4 +1,6 @@
 #pragma once 
+#include <string>
+#include <vector>
 #include <iostream>
 #include "white.h"
 #include "littletaha.h"
@@ -6,12 +8,15 @@
 #include "dani.h"
 #include "bigtaha.h"
 #include "heroes.h"
-#include "user.h"
 using namespace std;
 
-class menuhandler{
-    user user1;
+class user
+{
+    string name;
     public:
-    void run();
-    void builduser();
+    vector<heroes*> selectedHeroes;
+    void buildheroes(int);
+    
+    void set_name(string);
 };
+

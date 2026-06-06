@@ -6,5 +6,5 @@ class liltaha :public heroes
 {
     public:
     liltaha();
-
+     void testmessage();
 };

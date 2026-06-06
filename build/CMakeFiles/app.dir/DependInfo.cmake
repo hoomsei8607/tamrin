@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Houman/Desktop/tamrin/src/amin.cpp" "CMakeFiles/app.dir/src/amin.cpp.obj" "gcc" "CMakeFiles/app.dir/src/amin.cpp.obj.d"
+  "C:/Users/Houman/Desktop/tamrin/src/bigtaha.cpp" "CMakeFiles/app.dir/src/bigtaha.cpp.obj" "gcc" "CMakeFiles/app.dir/src/bigtaha.cpp.obj.d"
+  "C:/Users/Houman/Desktop/tamrin/src/dani.cpp" "CMakeFiles/app.dir/src/dani.cpp.obj" "gcc" "CMakeFiles/app.dir/src/dani.cpp.obj.d"
   "C:/Users/Houman/Desktop/tamrin/src/heroes.cpp" "CMakeFiles/app.dir/src/heroes.cpp.obj" "gcc" "CMakeFiles/app.dir/src/heroes.cpp.obj.d"
   "C:/Users/Houman/Desktop/tamrin/src/littletaha.cpp" "CMakeFiles/app.dir/src/littletaha.cpp.obj" "gcc" "CMakeFiles/app.dir/src/littletaha.cpp.obj.d"
   "C:/Users/Houman/Desktop/tamrin/src/main.cpp" "CMakeFiles/app.dir/src/main.cpp.obj" "gcc" "CMakeFiles/app.dir/src/main.cpp.obj.d"

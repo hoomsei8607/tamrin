@@ -147,4 +147,7 @@ CMakeFiles/app.dir/src/menuhandler.cpp.obj: \
  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/istream.tcc \
  C:/Users/Houman/Desktop/tamrin/headers/white.h \
  C:/Users/Houman/Desktop/tamrin/headers/heroes.h \
- C:/Users/Houman/Desktop/tamrin/headers/littletaha.h
+ C:/Users/Houman/Desktop/tamrin/headers/littletaha.h \
+ C:/Users/Houman/Desktop/tamrin/headers/amin.h \
+ C:/Users/Houman/Desktop/tamrin/headers/dani.h \
+ C:/Users/Houman/Desktop/tamrin/headers/bigtaha.h

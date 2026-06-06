@@ -8,7 +8,7 @@ white::white()
     set_roundforspecialattack(4);
     cout<<"hi me white";
 }
-int white::whiteskill1(int choice)
+void white::whiteskill1(int choice)
 {
-    
+    cout<<"meoww";
 }

@@ -255,6 +255,9 @@ CMakeFiles/app.dir/src/littletaha.cpp.obj
 
 CMakeFiles/app.dir/src/main.cpp.obj
  C:/Users/Houman/Desktop/tamrin/src/main.cpp
+ C:/Users/Houman/Desktop/tamrin/headers/amin.h
+ C:/Users/Houman/Desktop/tamrin/headers/bigtaha.h
+ C:/Users/Houman/Desktop/tamrin/headers/dani.h
  C:/Users/Houman/Desktop/tamrin/headers/heroes.h
  C:/Users/Houman/Desktop/tamrin/headers/littletaha.h
  C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h
@@ -406,6 +409,9 @@ CMakeFiles/app.dir/src/main.cpp.obj
 
 CMakeFiles/app.dir/src/menuhandler.cpp.obj
  C:/Users/Houman/Desktop/tamrin/src/menuhandler.cpp
+ C:/Users/Houman/Desktop/tamrin/headers/amin.h
+ C:/Users/Houman/Desktop/tamrin/headers/bigtaha.h
+ C:/Users/Houman/Desktop/tamrin/headers/dani.h
  C:/Users/Houman/Desktop/tamrin/headers/heroes.h
  C:/Users/Houman/Desktop/tamrin/headers/littletaha.h
  C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h

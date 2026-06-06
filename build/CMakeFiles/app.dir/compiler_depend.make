@@ -252,6 +252,9 @@ CMakeFiles/app.dir/src/littletaha.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/li
   C:/w64devkit/x86_64-w64-mingw32/include/wctype.h
 
 CMakeFiles/app.dir/src/main.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/main.cpp \
+  C:/Users/Houman/Desktop/tamrin/headers/amin.h \
+  C:/Users/Houman/Desktop/tamrin/headers/bigtaha.h \
+  C:/Users/Houman/Desktop/tamrin/headers/dani.h \
   C:/Users/Houman/Desktop/tamrin/headers/heroes.h \
   C:/Users/Houman/Desktop/tamrin/headers/littletaha.h \
   C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h \
@@ -402,6 +405,9 @@ CMakeFiles/app.dir/src/main.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/main.cpp
   C:/w64devkit/x86_64-w64-mingw32/include/wctype.h
 
 CMakeFiles/app.dir/src/menuhandler.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/menuhandler.cpp \
+  C:/Users/Houman/Desktop/tamrin/headers/amin.h \
+  C:/Users/Houman/Desktop/tamrin/headers/bigtaha.h \
+  C:/Users/Houman/Desktop/tamrin/headers/dani.h \
   C:/Users/Houman/Desktop/tamrin/headers/heroes.h \
   C:/Users/Houman/Desktop/tamrin/headers/littletaha.h \
   C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h \
@@ -752,6 +758,8 @@ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ptr_traits.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/charconv.h:
 
+C:/Users/Houman/Desktop/tamrin/headers/amin.h:
+
 C:/w64devkit/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/stdlib.h:
@@ -980,6 +988,8 @@ C:/w64devkit/x86_64-w64-mingw32/include/corecrt_startup.h:
 
 C:/w64devkit/x86_64-w64-mingw32/include/process.h:
 
+C:/Users/Houman/Desktop/tamrin/headers/bigtaha.h:
+
 C:/w64devkit/x86_64-w64-mingw32/include/pthread.h:
 
 C:/w64devkit/x86_64-w64-mingw32/include/pthread_compat.h:
@@ -1002,6 +1012,8 @@ C:/w64devkit/x86_64-w64-mingw32/include/time.h:
 
 C:/Users/Houman/Desktop/tamrin/src/main.cpp:
 
-C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h:
-
 C:/Users/Houman/Desktop/tamrin/src/white.cpp:
+
+C:/Users/Houman/Desktop/tamrin/headers/dani.h:
+
+C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h:

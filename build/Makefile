@@ -128,6 +128,78 @@ app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/build
 .PHONY : app/fast
 
+src/amin.obj: src/amin.cpp.obj
+.PHONY : src/amin.obj
+
+# target to build an object file
+src/amin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/amin.cpp.obj
+.PHONY : src/amin.cpp.obj
+
+src/amin.i: src/amin.cpp.i
+.PHONY : src/amin.i
+
+# target to preprocess a source file
+src/amin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/amin.cpp.i
+.PHONY : src/amin.cpp.i
+
+src/amin.s: src/amin.cpp.s
+.PHONY : src/amin.s
+
+# target to generate assembly for a file
+src/amin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/amin.cpp.s
+.PHONY : src/amin.cpp.s
+
+src/bigtaha.obj: src/bigtaha.cpp.obj
+.PHONY : src/bigtaha.obj
+
+# target to build an object file
+src/bigtaha.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/bigtaha.cpp.obj
+.PHONY : src/bigtaha.cpp.obj
+
+src/bigtaha.i: src/bigtaha.cpp.i
+.PHONY : src/bigtaha.i
+
+# target to preprocess a source file
+src/bigtaha.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/bigtaha.cpp.i
+.PHONY : src/bigtaha.cpp.i
+
+src/bigtaha.s: src/bigtaha.cpp.s
+.PHONY : src/bigtaha.s
+
+# target to generate assembly for a file
+src/bigtaha.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/bigtaha.cpp.s
+.PHONY : src/bigtaha.cpp.s
+
+src/dani.obj: src/dani.cpp.obj
+.PHONY : src/dani.obj
+
+# target to build an object file
+src/dani.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/dani.cpp.obj
+.PHONY : src/dani.cpp.obj
+
+src/dani.i: src/dani.cpp.i
+.PHONY : src/dani.i
+
+# target to preprocess a source file
+src/dani.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/dani.cpp.i
+.PHONY : src/dani.cpp.i
+
+src/dani.s: src/dani.cpp.s
+.PHONY : src/dani.s
+
+# target to generate assembly for a file
+src/dani.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/dani.cpp.s
+.PHONY : src/dani.cpp.s
+
 src/heroes.obj: src/heroes.cpp.obj
 .PHONY : src/heroes.obj
 
@@ -257,6 +329,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... app
+	@echo ... src/amin.obj
+	@echo ... src/amin.i
+	@echo ... src/amin.s
+	@echo ... src/bigtaha.obj
+	@echo ... src/bigtaha.i
+	@echo ... src/bigtaha.s
+	@echo ... src/dani.obj
+	@echo ... src/dani.i
+	@echo ... src/dani.s
 	@echo ... src/heroes.obj
 	@echo ... src/heroes.i
 	@echo ... src/heroes.s

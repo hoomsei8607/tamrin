@@ -138,13 +138,58 @@ CMakeFiles/app.dir/src/white.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/white.cpp.s"
 	C:\w64devkit\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Houman\Desktop\tamrin\src\white.cpp -o CMakeFiles\app.dir\src\white.cpp.s
 
+CMakeFiles/app.dir/src/amin.cpp.obj: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/amin.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/amin.cpp
+CMakeFiles/app.dir/src/amin.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Houman\Desktop\tamrin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/app.dir/src/amin.cpp.obj"
+	C:\w64devkit\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/amin.cpp.obj -MF CMakeFiles\app.dir\src\amin.cpp.obj.d -o CMakeFiles\app.dir\src\amin.cpp.obj -c C:\Users\Houman\Desktop\tamrin\src\amin.cpp
+
+CMakeFiles/app.dir/src/amin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/amin.cpp.i"
+	C:\w64devkit\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Houman\Desktop\tamrin\src\amin.cpp > CMakeFiles\app.dir\src\amin.cpp.i
+
+CMakeFiles/app.dir/src/amin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/amin.cpp.s"
+	C:\w64devkit\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Houman\Desktop\tamrin\src\amin.cpp -o CMakeFiles\app.dir\src\amin.cpp.s
+
+CMakeFiles/app.dir/src/dani.cpp.obj: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/dani.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/dani.cpp
+CMakeFiles/app.dir/src/dani.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Houman\Desktop\tamrin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/app.dir/src/dani.cpp.obj"
+	C:\w64devkit\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/dani.cpp.obj -MF CMakeFiles\app.dir\src\dani.cpp.obj.d -o CMakeFiles\app.dir\src\dani.cpp.obj -c C:\Users\Houman\Desktop\tamrin\src\dani.cpp
+
+CMakeFiles/app.dir/src/dani.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/dani.cpp.i"
+	C:\w64devkit\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Houman\Desktop\tamrin\src\dani.cpp > CMakeFiles\app.dir\src\dani.cpp.i
+
+CMakeFiles/app.dir/src/dani.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/dani.cpp.s"
+	C:\w64devkit\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Houman\Desktop\tamrin\src\dani.cpp -o CMakeFiles\app.dir\src\dani.cpp.s
+
+CMakeFiles/app.dir/src/bigtaha.cpp.obj: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/bigtaha.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/bigtaha.cpp
+CMakeFiles/app.dir/src/bigtaha.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Houman\Desktop\tamrin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/app.dir/src/bigtaha.cpp.obj"
+	C:\w64devkit\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/bigtaha.cpp.obj -MF CMakeFiles\app.dir\src\bigtaha.cpp.obj.d -o CMakeFiles\app.dir\src\bigtaha.cpp.obj -c C:\Users\Houman\Desktop\tamrin\src\bigtaha.cpp
+
+CMakeFiles/app.dir/src/bigtaha.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/bigtaha.cpp.i"
+	C:\w64devkit\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Houman\Desktop\tamrin\src\bigtaha.cpp > CMakeFiles\app.dir\src\bigtaha.cpp.i
+
+CMakeFiles/app.dir/src/bigtaha.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/bigtaha.cpp.s"
+	C:\w64devkit\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Houman\Desktop\tamrin\src\bigtaha.cpp -o CMakeFiles\app.dir\src\bigtaha.cpp.s
+
 # Object files for target app
 app_OBJECTS = \
 "CMakeFiles/app.dir/src/main.cpp.obj" \
 "CMakeFiles/app.dir/src/heroes.cpp.obj" \
 "CMakeFiles/app.dir/src/menuhandler.cpp.obj" \
 "CMakeFiles/app.dir/src/littletaha.cpp.obj" \
-"CMakeFiles/app.dir/src/white.cpp.obj"
+"CMakeFiles/app.dir/src/white.cpp.obj" \
+"CMakeFiles/app.dir/src/amin.cpp.obj" \
+"CMakeFiles/app.dir/src/dani.cpp.obj" \
+"CMakeFiles/app.dir/src/bigtaha.cpp.obj"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
@@ -154,11 +199,14 @@ app.exe: CMakeFiles/app.dir/src/heroes.cpp.obj
 app.exe: CMakeFiles/app.dir/src/menuhandler.cpp.obj
 app.exe: CMakeFiles/app.dir/src/littletaha.cpp.obj
 app.exe: CMakeFiles/app.dir/src/white.cpp.obj
+app.exe: CMakeFiles/app.dir/src/amin.cpp.obj
+app.exe: CMakeFiles/app.dir/src/dani.cpp.obj
+app.exe: CMakeFiles/app.dir/src/bigtaha.cpp.obj
 app.exe: CMakeFiles/app.dir/build.make
 app.exe: CMakeFiles/app.dir/linkLibs.rsp
 app.exe: CMakeFiles/app.dir/objects1.rsp
 app.exe: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Houman\Desktop\tamrin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable app.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Houman\Desktop\tamrin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable app.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\app.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

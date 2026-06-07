@@ -1,9 +1,14 @@
-#pragma once
+#ifndef AMIN_H
+#define AMIN_H
 #include "heroes.h"
 
 class amin : public heroes
 {
     public:
     amin();
-    void testmessage();
+    void skill1(int)  ;
+    void skill2(int);
+    void specialskill();
+
 };
+#endif

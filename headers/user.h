@@ -1,4 +1,5 @@
-#pragma once 
+#ifndef USER_h
+#define USER_h
 #include <string>
 #include <vector>
 #include <iostream>
@@ -14,9 +15,11 @@ class user
 {
     string name;
     public:
+    friend class white;
     vector<heroes*> selectedHeroes;
     void buildheroes(int);
     
     void set_name(string);
 };
 
+#endif

@@ -5,7 +5,14 @@ dani::dani()
 {
     cout<<"hi me dani \n";
 }
-void dani::testmessage()
-{
-    cout<<"yay dani";
-}
+void dani::skill1(int n)  {
+        
+    }
+
+void dani::skill2(int n)  {
+        
+    }
+
+void dani::specialskill()  {
+        
+    }

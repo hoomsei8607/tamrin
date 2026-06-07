@@ -5,5 +5,5 @@ using namespace std;
 int main() {
     
     menuhandler test;
-    test.run();
+    test.runall();
 }

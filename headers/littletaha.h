@@ -1,10 +1,15 @@
-#pragma once 
+#ifndef LILTAHA_H
+#define LILTAHA_H
 #include "heroes.h"
 
-
+class menuhandler;
 class liltaha :public heroes
 {
     public:
     liltaha();
-     void testmessage();
+    menuhandler *handler;
+    void skill1(int,int);
+    void skill2(int);
+    void specialskill(int);
 };
+#endif

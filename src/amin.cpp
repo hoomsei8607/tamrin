@@ -1,11 +1,20 @@
 #include "../headers/amin.h"
 #include <iostream>
+#include "../headers/amin.h"
 
 amin::amin()
 {
     cout<<"hi me amin \n";
 }
-void amin::testmessage()
+void amin::skill1(int n)  
 {
-    cout<<"yay amin";
+        
 }
+
+void amin::skill2(int n)  {
+        
+    }
+
+void amin::specialskill()  {
+        
+    }

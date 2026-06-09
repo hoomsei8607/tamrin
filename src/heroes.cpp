@@ -38,14 +38,14 @@ void heroes::set_roundforspecialattack(int round)
     roundforspecialattack=round;
 }
 
-void heroes::skill1()
+void heroes::skill1(int n,int n1)
 {
 }
-void heroes::skill2()
+void heroes::skill2(int n,int n1)
 {
 
 }
-void heroes::specialskill()
+void heroes::specialskill(int n)
 {
 
 }

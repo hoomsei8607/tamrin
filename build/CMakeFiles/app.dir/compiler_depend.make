@@ -3,7 +3,13 @@
 
 CMakeFiles/app.dir/src/amin.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/amin.cpp \
   C:/Users/Houman/Desktop/tamrin/headers/amin.h \
+  C:/Users/Houman/Desktop/tamrin/headers/bigtaha.h \
+  C:/Users/Houman/Desktop/tamrin/headers/dani.h \
   C:/Users/Houman/Desktop/tamrin/headers/heroes.h \
+  C:/Users/Houman/Desktop/tamrin/headers/littletaha.h \
+  C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h \
+  C:/Users/Houman/Desktop/tamrin/headers/user.h \
+  C:/Users/Houman/Desktop/tamrin/headers/white.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward/binders.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bit \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/alloc_traits.h \
@@ -47,12 +53,15 @@ CMakeFiles/app.dir/src/amin.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/amin.cpp
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/requires_hosted.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_abs.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_algobase.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_bvector.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_construct.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_function.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator_base_types.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_pair.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_vector.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/streambuf.tcc \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/streambuf_iterator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/string_view.tcc \
@@ -60,6 +69,7 @@ CMakeFiles/app.dir/src/amin.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/amin.cpp
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/uses_allocator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/uses_allocator_args.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/utility.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/vector.tcc \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/version.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cctype \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cerrno \
@@ -68,6 +78,7 @@ CMakeFiles/app.dir/src/amin.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/amin.cpp
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstddef \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstdio \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstdlib \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ctime \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cwchar \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cwctype \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/debug/assertions.h \
@@ -95,6 +106,7 @@ CMakeFiles/app.dir/src/amin.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/amin.cpp
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/tuple \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/type_traits \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/typeinfo \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/vector \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -150,8 +162,14 @@ CMakeFiles/app.dir/src/amin.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/amin.cpp
   C:/w64devkit/x86_64-w64-mingw32/include/wctype.h
 
 CMakeFiles/app.dir/src/bigtaha.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/bigtaha.cpp \
+  C:/Users/Houman/Desktop/tamrin/headers/amin.h \
   C:/Users/Houman/Desktop/tamrin/headers/bigtaha.h \
+  C:/Users/Houman/Desktop/tamrin/headers/dani.h \
   C:/Users/Houman/Desktop/tamrin/headers/heroes.h \
+  C:/Users/Houman/Desktop/tamrin/headers/littletaha.h \
+  C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h \
+  C:/Users/Houman/Desktop/tamrin/headers/user.h \
+  C:/Users/Houman/Desktop/tamrin/headers/white.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward/binders.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bit \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/alloc_traits.h \
@@ -195,12 +213,15 @@ CMakeFiles/app.dir/src/bigtaha.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/bigta
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/requires_hosted.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_abs.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_algobase.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_bvector.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_construct.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_function.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator_base_types.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_pair.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_vector.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/streambuf.tcc \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/streambuf_iterator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/string_view.tcc \
@@ -208,6 +229,7 @@ CMakeFiles/app.dir/src/bigtaha.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/bigta
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/uses_allocator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/uses_allocator_args.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/utility.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/vector.tcc \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/version.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cctype \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cerrno \
@@ -243,6 +265,7 @@ CMakeFiles/app.dir/src/bigtaha.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/bigta
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/tuple \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/type_traits \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/typeinfo \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/vector \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -298,8 +321,14 @@ CMakeFiles/app.dir/src/bigtaha.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/bigta
   C:/w64devkit/x86_64-w64-mingw32/include/wctype.h
 
 CMakeFiles/app.dir/src/dani.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/dani.cpp \
+  C:/Users/Houman/Desktop/tamrin/headers/amin.h \
+  C:/Users/Houman/Desktop/tamrin/headers/bigtaha.h \
   C:/Users/Houman/Desktop/tamrin/headers/dani.h \
   C:/Users/Houman/Desktop/tamrin/headers/heroes.h \
+  C:/Users/Houman/Desktop/tamrin/headers/littletaha.h \
+  C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h \
+  C:/Users/Houman/Desktop/tamrin/headers/user.h \
+  C:/Users/Houman/Desktop/tamrin/headers/white.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward/binders.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bit \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/alloc_traits.h \
@@ -343,12 +372,15 @@ CMakeFiles/app.dir/src/dani.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/dani.cpp
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/requires_hosted.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_abs.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_algobase.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_bvector.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_construct.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_function.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator_base_types.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_pair.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_vector.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/streambuf.tcc \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/streambuf_iterator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/string_view.tcc \
@@ -356,6 +388,7 @@ CMakeFiles/app.dir/src/dani.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/dani.cpp
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/uses_allocator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/uses_allocator_args.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/utility.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/vector.tcc \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/version.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cctype \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cerrno \
@@ -391,6 +424,7 @@ CMakeFiles/app.dir/src/dani.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/dani.cpp
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/tuple \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/type_traits \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/typeinfo \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/vector \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -1030,6 +1064,7 @@ CMakeFiles/app.dir/src/user.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/user.cpp
   C:/Users/Houman/Desktop/tamrin/headers/dani.h \
   C:/Users/Houman/Desktop/tamrin/headers/heroes.h \
   C:/Users/Houman/Desktop/tamrin/headers/littletaha.h \
+  C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h \
   C:/Users/Houman/Desktop/tamrin/headers/user.h \
   C:/Users/Houman/Desktop/tamrin/headers/white.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward/binders.h \
@@ -1345,7 +1380,9 @@ CMakeFiles/app.dir/src/white.cpp.obj: C:/Users/Houman/Desktop/tamrin/src/white.c
 
 C:/Users/Houman/Desktop/tamrin/headers/heroes.h:
 
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stringfwd.h:
+C:/w64devkit/x86_64-w64-mingw32/include/pthread.h:
+
+C:/Users/Houman/Desktop/tamrin/headers/bigtaha.h:
 
 C:/Users/Houman/Desktop/tamrin/src/amin.cpp:
 
@@ -1357,13 +1394,33 @@ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/stdlib.h:
 
 C:/Users/Houman/Desktop/tamrin/headers/amin.h:
 
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/basic_ios.h:
-
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/new_allocator.h:
 
 C:/w64devkit/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward/binders.h:
+
+C:/Users/Houman/Desktop/tamrin/src/white.cpp:
+
+C:/Users/Houman/Desktop/tamrin/headers/dani.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/cxxabi_init_exception.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/basic_ios.tcc:
+
+C:/Users/Houman/Desktop/tamrin/headers/littletaha.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/locale_facets.tcc:
+
+C:/Users/Houman/Desktop/tamrin/headers/user.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/string_view.tcc:
+
+C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/typeinfo:
+
+C:/Users/Houman/Desktop/tamrin/headers/white.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/exception_defines.h:
 
@@ -1379,9 +1436,7 @@ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/exception.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/allocator.h:
 
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/cxxabi_init_exception.h:
-
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/basic_ios.tcc:
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/basic_ios.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ostream:
 
@@ -1398,8 +1453,6 @@ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/char_traits.h:
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ptr_traits.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/charconv.h:
-
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/uses_allocator_args.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
 
@@ -1419,12 +1472,6 @@ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/stddef.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/functexcept.h:
 
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/clocale:
-
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/syslimits.h:
-
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cerrno:
-
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/hash_bytes.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ios_base.h:
@@ -1435,7 +1482,7 @@ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/locale_classes.t
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/locale_facets.h:
 
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/locale_facets.tcc:
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_vector.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/localefwd.h:
 
@@ -1445,13 +1492,11 @@ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_pair.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/memory_resource.h:
 
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_bvector.h:
-
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/move.h:
 
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/nested_exception.h:
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_bvector.h:
 
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cctype:
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/nested_exception.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ostream.tcc:
 
@@ -1477,17 +1522,31 @@ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_function.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator.h:
 
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/utility.h:
-
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/uses_allocator.h:
-
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator_base_funcs.h:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator_base_types.h:
 
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/string_view.tcc:
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_uninitialized.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stringfwd.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/uses_allocator.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/uses_allocator_args.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/utility.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/vector.tcc:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/version.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cctype:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/syslimits.h:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cerrno:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/clocale:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/concepts:
 
@@ -1496,6 +1555,8 @@ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstddef:
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstdio:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstdlib:
+
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ctime:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cwchar:
 
@@ -1547,9 +1608,7 @@ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/tuple:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/type_traits:
 
-C:/Users/Houman/Desktop/tamrin/headers/white.h:
-
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/typeinfo:
+C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/vector:
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 
@@ -1609,10 +1668,6 @@ C:/w64devkit/x86_64-w64-mingw32/include/malloc.h:
 
 C:/w64devkit/x86_64-w64-mingw32/include/process.h:
 
-C:/Users/Houman/Desktop/tamrin/headers/bigtaha.h:
-
-C:/w64devkit/x86_64-w64-mingw32/include/pthread.h:
-
 C:/w64devkit/x86_64-w64-mingw32/include/pthread_compat.h:
 
 C:/w64devkit/x86_64-w64-mingw32/include/pthread_signal.h:
@@ -1649,30 +1704,10 @@ C:/w64devkit/x86_64-w64-mingw32/include/wchar.h:
 
 C:/Users/Houman/Desktop/tamrin/src/dani.cpp:
 
-C:/Users/Houman/Desktop/tamrin/src/white.cpp:
-
-C:/Users/Houman/Desktop/tamrin/headers/dani.h:
-
 C:/Users/Houman/Desktop/tamrin/src/heroes.cpp:
 
 C:/Users/Houman/Desktop/tamrin/src/littletaha.cpp:
 
-C:/Users/Houman/Desktop/tamrin/headers/littletaha.h:
-
-C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h:
-
-C:/Users/Houman/Desktop/tamrin/headers/user.h:
-
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_uninitialized.h:
-
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_vector.h:
-
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/vector.tcc:
-
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/vector:
-
 C:/Users/Houman/Desktop/tamrin/src/main.cpp:
 
 C:/Users/Houman/Desktop/tamrin/src/user.cpp:
-
-C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ctime:

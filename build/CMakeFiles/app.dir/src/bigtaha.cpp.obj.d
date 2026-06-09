@@ -145,4 +145,17 @@ CMakeFiles/app.dir/src/bigtaha.cpp.obj: \
  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/basic_ios.tcc \
  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ostream.tcc \
  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/istream \
- C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/istream.tcc
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/istream.tcc \
+ C:/Users/Houman/Desktop/tamrin/headers/menuhandler.h \
+ C:/Users/Houman/Desktop/tamrin/headers/white.h \
+ C:/Users/Houman/Desktop/tamrin/headers/littletaha.h \
+ C:/Users/Houman/Desktop/tamrin/headers/amin.h \
+ C:/Users/Houman/Desktop/tamrin/headers/dani.h \
+ C:/Users/Houman/Desktop/tamrin/headers/bigtaha.h \
+ C:/Users/Houman/Desktop/tamrin/headers/user.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/vector \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_uninitialized.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_vector.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_bvector.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/vector.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ctime

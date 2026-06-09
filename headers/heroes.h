@@ -5,7 +5,7 @@ using namespace std;
 
 class heroes
 {
-    int health;
+    int health=0;
     int roundforspecialattack;
     public:
     int multiplier=1;
@@ -15,10 +15,11 @@ class heroes
     void set_health(int);
     int get_health();
     void set_roundforspecialattack(int);
-    virtual void skill1() ;
-    virtual void skill2() ;
-    virtual void specialskill() ;
+    virtual void skill1(int,int) ;
+    virtual void skill2(int ,int) ;
+    virtual void specialskill(int) ;
     virtual ~heroes(){};
+    bool marked=false;
 
     
     

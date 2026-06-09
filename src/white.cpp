@@ -5,25 +5,47 @@
 
 
 
-white::white()
+white::white(menuhandler* m_handler)
 {
     set_health(550);
     set_roundforspecialattack(4);
+    handler = m_handler;
 }
 void white::skill1(int choice,int user)
 {
-    cout<<"dr.white uses skill1 aspirine";
+    
+    if (handler == nullptr) {
+        cout << "CRASH PREVENTION: 'handler' is a null pointer!\n";
+        return;
+    }
+    cout<<"dr.white uses skill1 aspirine\n";
     srand(time(0));
     int ally=rand()%3;
+    while (handler->user1.selectedHeroes[ally]->get_health()<=0)
+    {
+       int ally=rand()%3; 
+    }
+    
+    
     if (user==1)
     {
+        handler->user1.selectedHeroes[ally]->changehealth(+40);
+        if(handler->user2.selectedHeroes[choice-1]->get_health()<=0)
+    {
+        cout<<"this opponent is dead";
+        return;
+    }
     handler->user2.selectedHeroes[choice-1]->changehealth(-40*multiplier);
-    handler->user1.selectedHeroes[ally]->changehealth(+40);
     }
     else if (user==2)
     {
-        handler->user1.selectedHeroes[choice-1]->changehealth(-40*multiplier);
         handler->user2.selectedHeroes[ally]->changehealth(+40);
+        if(handler->user1.selectedHeroes[choice-1]->get_health()<=0)
+    {
+        cout<<"this opponent is dead";
+        return;
+    }
+        handler->user1.selectedHeroes[choice-1]->changehealth(-40*multiplier);
         
     }
 }
@@ -38,7 +60,7 @@ void white::specialskill(int user)  {
         {
             if(handler->user1.selectedHeroes[i]->ischarachterdead())
             {
-                handler->user1.selectedHeroes[i]->changehealth(200);
+                handler->user1.selectedHeroes[i]->set_health(200);
                 break;
             }
             if (i==2)

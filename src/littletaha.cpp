@@ -3,12 +3,17 @@
 #include "../headers/menuhandler.h"
 #include <iostream>
 
- liltaha::liltaha(){
+ liltaha::liltaha(menuhandler* m_handler){
     set_health(500);
     set_roundforspecialattack(3);
+    handler = m_handler;
  }
 void liltaha::skill1(int choice,int user)  {
-        cout<<"lil taha uses skill1 sharp blade";
+    if (handler == nullptr) {
+        cout << "CRASH PREVENTION: 'handler' is a null pointer!\n";
+        return;
+        }
+        cout<<"lil taha uses skill1 sharp blade\n";
         int low=handler->user1.selectedHeroes[0]->get_health();
         int lowestindex=0;
         if (user==1)
@@ -22,7 +27,12 @@ void liltaha::skill1(int choice,int user)  {
             }
         }
         handler->user1.selectedHeroes[lowestindex]->changehealth(+20);
-        handler->user1.selectedHeroes[choice-1]->changehealth(-30);
+        if(handler->user2.selectedHeroes[choice-1]->get_health()<=0)
+    {
+        cout<<"this opponent is dead";
+        return;
+    }
+        handler->user2.selectedHeroes[choice-1]->changehealth(-30*multiplier);
     }
      if (user==2)
         {
@@ -36,7 +46,12 @@ void liltaha::skill1(int choice,int user)  {
             }
         }
         handler->user2.selectedHeroes[lowestindex]->changehealth(+20);
-        handler->user2.selectedHeroes[choice-1]->changehealth(-30);
+        if(handler->user1.selectedHeroes[choice-1]->get_health()<=0)
+    {
+        cout<<"this opponent is dead";
+        return;
+    }
+        handler->user1.selectedHeroes[choice-1]->changehealth(-30*multiplier);
     }
         
     }

@@ -5,7 +5,7 @@ void menuhandler::buildhero1()
 {
     char ch;
     int counter=0;
-    cout<< R"(User 2 :
+    cout<< R"(User 1 :
     choose your heroes
 ------------------------
 1 :  dr.white    
@@ -30,7 +30,7 @@ if (a<1||a>5)
 }
 else{
     counter++;
-    user1.buildheroes(a);
+    user1.buildheroes(a,this);
 }
 
 }
@@ -64,10 +64,13 @@ if (a<1||a>5)
 }
 else{
     counter++;
-    user2.buildheroes(a);
+    user2.buildheroes(a,this);
 }
 
 }
+user1.selectedHeroes[0]->specialskill(1);
+cout<<user2.selectedHeroes[0]->get_health()<<endl;
+
 
 }
 
@@ -84,6 +87,7 @@ void menuhandler::builduser2()
     string name;
     cin>>name;
     user2.set_name(name);
+    
 }
 
 void menuhandler::runall()
@@ -92,4 +96,5 @@ void menuhandler::runall()
     buildhero1();
     builduser2();
     buildhero2();
+    
 }

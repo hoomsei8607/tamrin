@@ -2,13 +2,15 @@
 #define AMIN_H
 #include "heroes.h"
 
+class menuhandler;
 class amin : public heroes
 {
+    menuhandler *handler;
     public:
-    amin();
-    void skill1(int)  ;
-    void skill2(int);
-    void specialskill();
+    amin(menuhandler* m_handler);
+    void skill1(int,int)  ;
+    void skill2(int,int);
+    void specialskill(int);
 
 };
 #endif

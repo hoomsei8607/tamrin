@@ -17,7 +17,7 @@ class user
     public:
     friend class white;
     vector<heroes*> selectedHeroes;
-    void buildheroes(int);
+    void buildheroes(int,menuhandler* handler);
     
     void set_name(string);
 };

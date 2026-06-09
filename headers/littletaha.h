@@ -6,7 +6,7 @@ class menuhandler;
 class liltaha :public heroes
 {
     public:
-    liltaha();
+    liltaha(menuhandler* m_handler);
     menuhandler *handler;
     void skill1(int,int);
     void skill2(int);

@@ -2,12 +2,14 @@
 #define BIGTAHA_H
 #include "heroes.h"
 
+class menuhandler;
 class bigtaha : public heroes
 {
+    menuhandler *handler;
     public:
-    bigtaha();
+    bigtaha(menuhandler* m_handler);
     void skill1(int);
     void skill2(int);
-    void specialskill();
+    void specialskill(int);
 };
 #endif

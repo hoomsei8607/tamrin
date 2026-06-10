@@ -6,6 +6,7 @@ using namespace std;
 class heroes
 {
     int health=0;
+    string name;
     int roundforspecialattack;
     public:
     int multiplier=1;
@@ -15,11 +16,16 @@ class heroes
     void set_health(int);
     int get_health();
     void set_roundforspecialattack(int);
-    virtual void skill1(int,int) ;
+    virtual void skill1(int=0,int=0) ;
     virtual void skill2(int ,int) ;
     virtual void specialskill(int) ;
     virtual ~heroes(){};
     bool marked=false;
+    void set_name(string);
+    string get_name();
+    virtual void showskills()=0;
+    bool isspecialready();
+    
 
     
     

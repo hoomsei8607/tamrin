@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/app.dir/src/bigtaha.cpp.obj.d"
   "CMakeFiles/app.dir/src/dani.cpp.obj"
   "CMakeFiles/app.dir/src/dani.cpp.obj.d"
+  "CMakeFiles/app.dir/src/gameflow.cpp.obj"
+  "CMakeFiles/app.dir/src/gameflow.cpp.obj.d"
   "CMakeFiles/app.dir/src/heroes.cpp.obj"
   "CMakeFiles/app.dir/src/heroes.cpp.obj.d"
   "CMakeFiles/app.dir/src/littletaha.cpp.obj"

@@ -13,5 +13,6 @@ class white: public heroes
     void skill2(int);
     void specialskill(int);
     white(menuhandler* m_handler);
+    void showskills ()override;
 };
 #endif

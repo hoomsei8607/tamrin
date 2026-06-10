@@ -1,9 +1,9 @@
 #include <iostream>
-#include "../headers/menuhandler.h"
 //#include "menuhandler.cpp"
+#include "../headers/gameflow.h"
 using namespace std;
 int main() {
-    
-    menuhandler test;
-    test.runall();
+    gameflow test;
+    test.rungame();
+
 }

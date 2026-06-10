@@ -7,6 +7,7 @@ dani::dani(menuhandler* m_handler)
     set_health(600);
     set_roundforspecialattack(4);
     handler = m_handler;
+    set_name("dani");
 }
 void dani::skill1(int n)  {
         
@@ -18,7 +19,7 @@ void dani::skill2(int choice,int user)  {
         cout << "CRASH PREVENTION: 'handler' is a null pointer!\n";
         return;
         }
-        cout<<"dani taha uses skill1\n";
+        cout<<"dani uses skill1\n";
         int high=handler->user2.selectedHeroes[0]->get_health();
         int highestindex=0;
         if (user==1)
@@ -64,3 +65,13 @@ void dani::skill2(int choice,int user)  {
 void dani::specialskill()  {
         
     }
+
+void dani::showskills()
+{
+    cout<<R"(Dani's skills:
+    1_ghofli(20 damage to one enemy but multiplies by 1.6 if attacked again)
+    2_fil kosh(50 damage to selected enemy and the enemy with the most health)
+    3_special skill: sangar khanevade(gives 250 shield to ally with least health for 2 turns)
+    
+    )";
+}

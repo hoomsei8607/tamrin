@@ -7,6 +7,7 @@
     set_health(500);
     set_roundforspecialattack(3);
     handler = m_handler;
+    set_name("littletaha");
  }
 void liltaha::skill1(int choice,int user)  {
     if (handler == nullptr) {
@@ -88,4 +89,13 @@ void liltaha::specialskill(int user)  {
         }
         handler->user2.selectedHeroes[lowestindex]->changehealth(+200);
     }
+}
+void liltaha::showskills()
+{
+    cout<<R"(little taha's skills:
+    1_tigh tiz(30 damage to selected enemy ,20 heal to least health ally)
+    2_serom khoon(40 heal for 1 ally for 2 turns)
+    3_special skill: gharantine kamel(200 heal for least health ally)
+    
+    )";
 }

@@ -12,5 +12,6 @@ class dani : public heroes
      void skill1(int);
     void skill2(int,int);
     void specialskill();
+    void showskills();
 };
 #endif

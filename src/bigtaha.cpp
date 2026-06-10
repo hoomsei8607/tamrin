@@ -8,8 +8,9 @@ bigtaha::bigtaha(menuhandler* m_handler)
     set_health(500);
     set_roundforspecialattack(4);
     handler = m_handler;
+    set_name("bigtaha");
 }
-void bigtaha::skill1(int user)  {
+void bigtaha::skill1(int choice,int user)  {
     cout<<"bigtaha uses skill1\n";
         if (user==1)
         {
@@ -17,7 +18,7 @@ void bigtaha::skill1(int user)  {
             {
                 if (handler->user2.selectedHeroes[i]->get_health()>0)
                 {
-                handler->user2.selectedHeroes[i]->changehealth(-30);
+                handler->user2.selectedHeroes[i]->changehealth(-30*multiplier);
                 }
             }           
         }
@@ -27,7 +28,7 @@ void bigtaha::skill1(int user)  {
             {
                 if (handler->user1.selectedHeroes[i]->get_health()>0)
                 {
-                handler->user1.selectedHeroes[i]->changehealth(-30);
+                handler->user1.selectedHeroes[i]->changehealth(-30*multiplier);
                 }
             } 
         } 
@@ -58,3 +59,11 @@ void bigtaha::specialskill(int user)  {
         handler->user1.selectedHeroes[enemy]->marked=true;
     }
 }
+ void bigtaha::showskills()
+ {
+    cout<<R"(Bigtaha's skills:
+    1_Ragbar(30 damage to all enemies)
+    2_x-ray(90 damage to 1 enemy and hide)
+    3_special skill: entegham baradar(mark 1 enemy to damage next turn)
+    )";
+ }

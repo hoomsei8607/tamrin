@@ -10,6 +10,7 @@ white::white(menuhandler* m_handler)
     set_health(550);
     set_roundforspecialattack(4);
     handler = m_handler;
+    set_name("dr.white");
 }
 void white::skill1(int choice,int user)
 {
@@ -87,3 +88,12 @@ void white::specialskill(int user)  {
         }
     }
 }     
+
+void white::showskills()
+{
+    cout<<R"(dr.white's skills:
+    1_aspirin(40 damage to selected enemy , 40 heal to random ally)
+    2_doping(one ally deals 20% more damage)
+    3_special skill: amaliat otagh amal(bring back 1 dead ally and set health to 200)
+    )";
+}

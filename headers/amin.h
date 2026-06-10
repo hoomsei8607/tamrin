@@ -11,6 +11,7 @@ class amin : public heroes
     void skill1(int,int)  ;
     void skill2(int,int);
     void specialskill(int);
+    void showskills();
 
 };
 #endif

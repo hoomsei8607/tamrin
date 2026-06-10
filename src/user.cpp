@@ -24,4 +24,8 @@ switch (choice)
                     selectedHeroes.push_back(newHero);
                 }
 }
+string user::getname()
+{
+    return name;
+}
 

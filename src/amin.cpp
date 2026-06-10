@@ -9,6 +9,7 @@ amin::amin(menuhandler* m_handler)
     handler = m_handler;
     set_health(500);
     set_roundforspecialattack(3);
+    set_name("amin");
 }
 void amin::skill1(int choice,int user)  
 {
@@ -131,4 +132,13 @@ void amin::specialskill(int user)  {
         }
         
     }
+}
+
+void amin::showskills()
+{
+    cout<<R"(Amin's skills:
+    1_akharin feshang(deals 55 damage to selected enemy)
+    2_zarbe be khodi(25 damage to one ally to heal himself(75 heal))
+    3_special skill : faryad na amni(250 damage to one random enemy and 30 damage to 2 allies)
+    )";
 }

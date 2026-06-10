@@ -1,5 +1,6 @@
 #include "../headers/heroes.h"
 #include "../headers/heroes.h"
+#include <iostream>
 
 void heroes::changehealth(int change)
 {
@@ -48,4 +49,24 @@ void heroes::skill2(int n,int n1)
 void heroes::specialskill(int n)
 {
 
+}
+void heroes::set_name(string name)
+{
+    this->name=name;
+}
+string heroes::get_name()
+{
+    return name;
+}
+void showskills()
+{
+}
+
+bool heroes::isspecialready()
+{
+    if (roundforspecialattack==0)
+    {
+        return true;
+    }
+    return false;
 }

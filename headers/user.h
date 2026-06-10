@@ -15,6 +15,8 @@ class user
 {
     string name;
     public:
+    string getname();
+    int energy;
     friend class white;
     vector<heroes*> selectedHeroes;
     void buildheroes(int,menuhandler* handler);

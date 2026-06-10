@@ -200,6 +200,30 @@ src/dani.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/dani.cpp.s
 .PHONY : src/dani.cpp.s
 
+src/gameflow.obj: src/gameflow.cpp.obj
+.PHONY : src/gameflow.obj
+
+# target to build an object file
+src/gameflow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/gameflow.cpp.obj
+.PHONY : src/gameflow.cpp.obj
+
+src/gameflow.i: src/gameflow.cpp.i
+.PHONY : src/gameflow.i
+
+# target to preprocess a source file
+src/gameflow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/gameflow.cpp.i
+.PHONY : src/gameflow.cpp.i
+
+src/gameflow.s: src/gameflow.cpp.s
+.PHONY : src/gameflow.s
+
+# target to generate assembly for a file
+src/gameflow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/gameflow.cpp.s
+.PHONY : src/gameflow.cpp.s
+
 src/heroes.obj: src/heroes.cpp.obj
 .PHONY : src/heroes.obj
 
@@ -362,6 +386,9 @@ help:
 	@echo ... src/dani.obj
 	@echo ... src/dani.i
 	@echo ... src/dani.s
+	@echo ... src/gameflow.obj
+	@echo ... src/gameflow.i
+	@echo ... src/gameflow.s
 	@echo ... src/heroes.obj
 	@echo ... src/heroes.i
 	@echo ... src/heroes.s

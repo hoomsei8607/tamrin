@@ -68,8 +68,7 @@ else{
 }
 
 }
-user1.selectedHeroes[0]->specialskill(1);
-cout<<user2.selectedHeroes[0]->get_health()<<endl;
+
 
 
 }

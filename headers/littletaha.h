@@ -11,5 +11,6 @@ class liltaha :public heroes
     void skill1(int,int);
     void skill2(int);
     void specialskill(int);
+    void showskills();
 };
 #endif

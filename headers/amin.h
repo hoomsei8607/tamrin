@@ -12,6 +12,11 @@ class amin : public heroes
     void skill2(int,int);
     void specialskill(int);
     void showskills();
+    void damagemultiplier();
+    int aminmult=1;
+    int energyskill1=3;
+    int energyskill2=3;
+    int energyspecialskill=4;
 
 };
 #endif

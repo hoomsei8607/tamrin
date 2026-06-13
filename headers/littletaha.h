@@ -12,5 +12,9 @@ class liltaha :public heroes
     void skill2(int);
     void specialskill(int);
     void showskills();
+    void damagemultiplier();
+     int energyskill1=2;
+    int energyskill2=4;
+    int energyspecialskill=4;
 };
 #endif

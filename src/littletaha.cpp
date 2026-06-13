@@ -8,6 +8,7 @@
     set_roundforspecialattack(3);
     handler = m_handler;
     set_name("littletaha");
+    maxhealth=500;
  }
 void liltaha::skill1(int choice,int user)  {
     if (handler == nullptr) {
@@ -27,13 +28,24 @@ void liltaha::skill1(int choice,int user)  {
                 lowestindex=i;
             }
         }
+        cout<<"littletaha healed ally number: "<<lowestindex+1;
+         int allyhealth=handler->user1.selectedHeroes[lowestindex]->get_health();
+    int diffrence=handler->user1.selectedHeroes[lowestindex]->maxhealth-allyhealth;
+        if (diffrence<=20)
+        {
+          handler->user1.selectedHeroes[lowestindex]->changehealth(+diffrence);  
+        }
+        else{
         handler->user1.selectedHeroes[lowestindex]->changehealth(+20);
+        }
+
         if(handler->user2.selectedHeroes[choice-1]->get_health()<=0)
     {
         cout<<"this opponent is dead";
         return;
     }
         handler->user2.selectedHeroes[choice-1]->changehealth(-30*multiplier);
+         handler->user1.energy-=2;
     }
      if (user==2)
         {
@@ -46,13 +58,23 @@ void liltaha::skill1(int choice,int user)  {
                 lowestindex=i;
             }
         }
+        cout<<"littletaha healed ally number: "<<lowestindex+1;
+            int allyhealth=handler->user2.selectedHeroes[lowestindex]->get_health();
+    int diffrence=handler->user2.selectedHeroes[lowestindex]->maxhealth-allyhealth;
+        if (diffrence<=20)
+        {
+          handler->user2.selectedHeroes[lowestindex]->changehealth(+diffrence);  
+        }
+        else{
         handler->user2.selectedHeroes[lowestindex]->changehealth(+20);
-        if(handler->user1.selectedHeroes[choice-1]->get_health()<=0)
+        }
+        if(handler->user2.selectedHeroes[choice-1]->get_health()<=0)
     {
         cout<<"this opponent is dead";
         return;
     }
         handler->user1.selectedHeroes[choice-1]->changehealth(-30*multiplier);
+         handler->user2.energy-=2;
     }
         
     }
@@ -75,6 +97,8 @@ void liltaha::specialskill(int user)  {
             }
         }
         handler->user1.selectedHeroes[lowestindex]->changehealth(+200);
+         handler->user1.energy-=4;
+        
     }
      if (user==2)
         {
@@ -88,7 +112,9 @@ void liltaha::specialskill(int user)  {
             }
         }
         handler->user2.selectedHeroes[lowestindex]->changehealth(+200);
+         handler->user2.energy-=4;
     }
+    set_roundforspecialattack(3);
 }
 void liltaha::showskills()
 {
@@ -98,4 +124,8 @@ void liltaha::showskills()
     3_special skill: gharantine kamel(200 heal for least health ally)
     
     )";
+}
+void liltaha::damagemultiplier()
+{
+    multiplier=1.2;
 }

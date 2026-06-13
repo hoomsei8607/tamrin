@@ -8,6 +8,7 @@ bigtaha::bigtaha(menuhandler* m_handler)
     set_health(500);
     set_roundforspecialattack(4);
     handler = m_handler;
+    maxhealth=500;
     set_name("bigtaha");
 }
 void bigtaha::skill1(int choice,int user)  {
@@ -20,7 +21,8 @@ void bigtaha::skill1(int choice,int user)  {
                 {
                 handler->user2.selectedHeroes[i]->changehealth(-30*multiplier);
                 }
-            }           
+            }  
+             handler->user1.energy-=3;         
         }
         if (user==2)
         {
@@ -31,6 +33,7 @@ void bigtaha::skill1(int choice,int user)  {
                 handler->user1.selectedHeroes[i]->changehealth(-30*multiplier);
                 }
             } 
+             handler->user2.energy-=4;
         } 
 }
 
@@ -48,7 +51,8 @@ void bigtaha::specialskill(int user)  {
         {
            int enemy=rand()%3; 
         }
-        handler->user2.selectedHeroes[enemy]->marked=true;
+        handler->user2.selectedHeroes[enemy]->markedbigtaha=true;
+         handler->user1.energy-=3;
     }
       if (user==2)
         {
@@ -56,8 +60,10 @@ void bigtaha::specialskill(int user)  {
         {
            int enemy=rand()%3; 
         }
-        handler->user1.selectedHeroes[enemy]->marked=true;
+        handler->user1.selectedHeroes[enemy]->markedbigtaha=true;
+         handler->user2.energy-=3;
     }
+    set_roundforspecialattack(4);
 }
  void bigtaha::showskills()
  {
@@ -67,3 +73,7 @@ void bigtaha::specialskill(int user)  {
     3_special skill: entegham baradar(mark 1 enemy to damage next turn)
     )";
  }
+ void bigtaha::damagemultiplier()
+{
+    multiplier=1.2;
+}

@@ -8,8 +8,73 @@ dani::dani(menuhandler* m_handler)
     set_roundforspecialattack(4);
     handler = m_handler;
     set_name("dani");
+    maxhealth=600;
 }
-void dani::skill1(int n)  {
+void dani::skill1(int choice , int user)  {
+        if (user==1)
+        {
+            if (handler->user2.selectedHeroes[choice-1]->numberofmarks==0  )
+            {
+                for(auto *item : handler->user2.selectedHeroes)
+                {
+                    item->numberofmarks=0;
+                }
+            }
+            
+            if(handler->user2.selectedHeroes[choice-1]->get_health()<=0)
+        {
+            cout<<"this opponent is dead\n";
+            return;
+        }
+        if (handler->user2.selectedHeroes[choice-1]->markeddani=true)
+        {
+            int markdamage=1;
+            for(int i=0 ; i<handler->user2.selectedHeroes[choice-1]->numberofmarks ; i++)
+            {
+                markdamage*=1.6;
+            }
+            handler->user2.selectedHeroes[choice-1]->changehealth(-20*markdamage*multiplier);
+            handler->user2.selectedHeroes[choice-1]->numberofmarks++;   
+        }
+        else{
+            handler->user2.selectedHeroes[choice-1]->changehealth(-20*multiplier);
+            handler->user2.selectedHeroes[choice-1]->markeddani=true;
+            handler->user2.selectedHeroes[choice-1]->numberofmarks++;
+             handler->user1.energy-=2;
+        }
+        }
+        if (user==2)
+        {
+            if (handler->user1.selectedHeroes[choice-1]->numberofmarks==0  )
+            {
+                for(auto *item : handler->user1.selectedHeroes)
+                {
+                    item->numberofmarks=0;
+                }
+            }
+            
+            if(handler->user1.selectedHeroes[choice-1]->get_health()<=0)
+        {
+            cout<<"this opponent is dead\n";
+            return;
+        }
+        if (handler->user1.selectedHeroes[choice-1]->markeddani=true)
+        {
+            int markdamage=1;
+            for(int i=0 ; i<handler->user1.selectedHeroes[choice-1]->numberofmarks ; i++)
+            {
+                markdamage*=1.6;
+            }
+            handler->user1.selectedHeroes[choice-1]->changehealth(-20*markdamage*multiplier);
+            handler->user1.selectedHeroes[choice-1]->numberofmarks++;   
+        }
+        else{
+            handler->user1.selectedHeroes[choice-1]->changehealth(-20*multiplier);
+            handler->user1.selectedHeroes[choice-1]->markeddani=true;
+            handler->user1.selectedHeroes[choice-1]->numberofmarks++;
+             handler->user1.energy-=2;
+        }
+        }
         
     }
 
@@ -40,6 +105,7 @@ void dani::skill2(int choice,int user)  {
         return;
     }
         handler->user2.selectedHeroes[choice-1]->changehealth(-50*multiplier);
+         handler->user1.energy-=4;
     }
      if (user==2)
         {
@@ -59,11 +125,12 @@ void dani::skill2(int choice,int user)  {
         return;
     }
         handler->user1.selectedHeroes[choice-1]->changehealth(-50*multiplier);
+         handler->user2.energy-=4;
     }
    
 }
 void dani::specialskill()  {
-        
+        set_roundforspecialattack(4);
     }
 
 void dani::showskills()
@@ -74,4 +141,8 @@ void dani::showskills()
     3_special skill: sangar khanevade(gives 250 shield to ally with least health for 2 turns)
     
     )";
+}
+void dani::damagemultiplier()
+{
+    multiplier=1.2;
 }

@@ -8,7 +8,9 @@ class gameflow
     int round=1;
     public:
     void rungame();
-    
+    int allcharachtersdead();
+    void setenergy(int,int);
+    int checkhealths();
 };
 
 

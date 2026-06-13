@@ -21,7 +21,7 @@ bool heroes::ischarachterdead()
     
 }
 
-void heroes::damagemultiplier(int rounds, int mult)
+void heroes::damagemultiplier()
 {
     //To do
 }

@@ -7,12 +7,12 @@ class heroes
 {
     int health=0;
     string name;
-    int roundforspecialattack;
     public:
-    int multiplier=1;
+    int roundforspecialattack;
+    float multiplier=1;
     void changehealth(int);
     bool ischarachterdead();
-    void damagemultiplier(int,int);//TO DO
+    virtual void damagemultiplier();//TO DO
     void set_health(int);
     int get_health();
     void set_roundforspecialattack(int);
@@ -20,11 +20,14 @@ class heroes
     virtual void skill2(int ,int) ;
     virtual void specialskill(int) ;
     virtual ~heroes(){};
-    bool marked=false;
+    bool markedbigtaha=false;
+    bool markeddani=false;
+    int numberofmarks=0;
     void set_name(string);
     string get_name();
     virtual void showskills()=0;
     bool isspecialready();
+    int maxhealth;
     
 
     

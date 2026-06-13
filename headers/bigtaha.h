@@ -12,5 +12,9 @@ class bigtaha : public heroes
     void skill2(int);
     void specialskill(int);
     void showskills();
+    void damagemultiplier();
+     int energyskill1=3;
+    int energyskill2=4;
+    int energyspecialskill=3;
 };
 #endif
